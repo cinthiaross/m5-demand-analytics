@@ -7,13 +7,13 @@ M5 Retail Dataset
 Retail organizations operate with thousands of SKUs across multiple locations and time periods.
 In this context, understanding demand concentration, volatility, and calendar-driven behavior is critical for:
 
-Inventory planning
+- Inventory planning
 
-Promotion strategy
+- Promotion strategy
 
-Operational prioritization
+- Operational prioritization
 
-Data-driven decision making at scale
+- Data-driven decision making at scale
 
 This project focuses on exploring large-scale transactional sales data to uncover structural demand patterns that can guide commercial and operational decisions.
 
@@ -48,37 +48,37 @@ The dataset structure allows analysis at multiple aggregation levels, enabling h
 
 The analysis follows a structured analytics engineering mindset:
 
-Data Understanding
+- Data Understanding
 
-Schema exploration
+- Schema exploration
 
-Identification of relevant dimensions and measures
+- Identification of relevant dimensions and measures
 
-Multi-Level Aggregation
+- Multi-Level Aggregation
 
-Item-level
+- Item-level
 
-Category-level
+- Category-level
 
-Store and state-level
+- Store and state-level
 
-Demand Concentration Analysis
+- Demand Concentration Analysis
 
-Identification of Pareto / long-tail behavior
+- Identification of Pareto / long-tail behavior
 
-Contribution of top products to total volume
+- Contribution of top products to total volume
 
-Volatility & Stability Analysis
+- Volatility & Stability Analysis
 
-Comparison across categories
+- Comparison across categories
 
-Identification of stable vs. elastic demand segments
+- Identification of stable vs. elastic demand segments
 
-Calendar & Event Impact
+- Calendar & Event Impact
 
-Sales behavior on event vs. non-event days
+- Sales behavior on event vs. non-event days
 
-Category-specific sensitivity to calendar effects
+- Category-specific sensitivity to calendar effects
 
 This approach emphasizes interpretability and business relevance over model complexity.
 
@@ -86,15 +86,15 @@ This approach emphasizes interpretability and business relevance over model comp
 
 Some of the main findings include:
 
-A small percentage of products account for a disproportionate share of total sales, exhibiting strong Pareto behavior.
+- A small percentage of products account for a disproportionate share of total sales, exhibiting strong Pareto behavior.
 
-Non-discretionary categories tend to show lower volatility and more predictable demand patterns.
+- Non-discretionary categories tend to show lower volatility and more predictable demand patterns.
 
-Event-driven sales increases are heterogeneous: not all categories benefit equally from calendar effects.
+- Event-driven sales increases are heterogeneous: not all categories benefit equally from calendar effects.
 
-High-volume items are not necessarily the most volatile, highlighting the importance of separating volume from instability.
+- High-volume items are not necessarily the most volatile, highlighting the importance of separating volume from instability.
 
-Aggregation level matters: insights differ significantly between item-level and category-level views.
+- Aggregation level matters: insights differ significantly between item-level and category-level views.
 
 6. Technology Stack
 
